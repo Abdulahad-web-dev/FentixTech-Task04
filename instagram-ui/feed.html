@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instagram Feed UI</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+  
+  <div class="phone">
+    <div class="notch"></div>
+    <div class="status-bar">
+      <span>9:41</span>
+      <div style="display: flex; gap: 5px;">
+        <i class="ph-fill ph-cell-signal-full"></i>
+        <i class="ph-fill ph-wifi-high"></i>
+        <i class="ph-fill ph-battery-full"></i>
+      </div>
+    </div>
+
+    <!-- Top Navigation -->
+    <div class="top-nav">
+      <div class="title" style="font-family: 'Inter', sans-serif; font-size: 20px; font-weight: 700; font-style: italic;">
+        Instagram
+      </div>
+      <div class="icons">
+        <i class="ph ph-heart"></i>
+        <i class="ph ph-paper-plane-tilt"></i>
+      </div>
+    </div>
+
+    <!-- Scrollable Content -->
+    <div class="content">
+      
+      <!-- Stories Bar -->
+      <div class="stories-bar">
+        <div class="story-item">
+          <div class="story-ring" style="background: none; border: 1px solid #dbdbdb; padding: 2px;">
+            <div class="story-inner" style="position: relative;">
+               <div class="add-icon" style="position: absolute; bottom: -2px; right: -2px; background: #0095f6; color: white; width: 16px; height: 16px; border-radius: 50%; display: flex; justify-content: center; align-items: center; border: 2px solid white; font-size: 10px;"><i class="ph ph-plus"></i></div>
+            </div>
+          </div>
+          <span style="font-size: 11px;">Your story</span>
+        </div>
+        <div class="story-item">
+          <div class="story-ring"><div class="story-inner"></div></div>
+          <span style="font-size: 11px;">john_doe</span>
+        </div>
+        <div class="story-item">
+          <div class="story-ring"><div class="story-inner"></div></div>
+          <span style="font-size: 11px;">jane_smith</span>
+        </div>
+        <div class="story-item">
+          <div class="story-ring"><div class="story-inner"></div></div>
+          <span style="font-size: 11px;">design_inspo</span>
+        </div>
+        <div class="story-item">
+          <div class="story-ring"><div class="story-inner"></div></div>
+          <span style="font-size: 11px;">ui_ux</span>
+        </div>
+      </div>
+
+      <!-- Feed Posts -->
+      <div class="post">
+        <div class="post-header">
+          <div class="post-user">
+            <div class="post-user-avatar"></div>
+            <div class="post-username">design_inspo</div>
+          </div>
+          <i class="ph ph-dots-three"></i>
+        </div>
+        <div class="post-image"></div>
+        <div class="post-actions">
+          <div class="post-actions-left">
+            <i class="ph ph-heart" style="color: #ed4956;"></i>
+            <i class="ph ph-chat-circle"></i>
+            <i class="ph ph-paper-plane-tilt"></i>
+          </div>
+          <i class="ph ph-bookmark"></i>
+        </div>
+        <div class="post-likes">1,243 likes</div>
+        <div class="post-caption">
+          <span>design_inspo</span> Beautiful gradient layouts for your next mobile app project. What do you think? 👇
+        </div>
+        <div class="post-comments">View all 145 comments</div>
+        <div class="post-comments" style="font-size: 11px; margin-top: 2px;">2 hours ago</div>
+      </div>
+      
+      <div class="post">
+        <div class="post-header">
+          <div class="post-user">
+            <div class="post-user-avatar"></div>
+            <div class="post-username">john_doe</div>
+          </div>
+          <i class="ph ph-dots-three"></i>
+        </div>
+        <div class="post-image" style="height: 250px;"></div>
+        <div class="post-actions">
+          <div class="post-actions-left">
+            <i class="ph ph-heart"></i>
+            <i class="ph ph-chat-circle"></i>
+            <i class="ph ph-paper-plane-tilt"></i>
+          </div>
+          <i class="ph ph-bookmark"></i>
+        </div>
+        <div class="post-likes">856 likes</div>
+        <div class="post-caption">
+          <span>john_doe</span> Exploring the city today! 🏙️
+        </div>
+        <div class="post-comments">View all 32 comments</div>
+      </div>
+
+    </div>
+
+    <!-- Bottom Navigation -->
+    <div class="bottom-nav">
+      <a href="feed.html" style="color: black;"><i class="ph-fill ph-house"></i></a>
+      <a href="explore.html"><i class="ph ph-magnifying-glass"></i></a>
+      <a href="#"><i class="ph ph-plus-square"></i></a>
+      <a href="#"><i class="ph ph-film-strip"></i></a>
+      <a href="profile.html"><img src="1.jpeg" class="nav-profile" style="object-fit: cover;" alt=""></a>
+    </div>
+  </div>
+
+</body>
+</html>
